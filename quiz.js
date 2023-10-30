@@ -86,7 +86,7 @@ const selectAnswer = ()=>{
   answersContainer.querySelectorAll("input").forEach((el)=>{
     el.addEventListener("click" , (e)=>{
       selectedAnswer= e.target.value; 
-      console.log(e.target.value);
+     // console.log(e.target.value);
 //e represents the event object, and e.target refers to the element that was clicked
 //that element is an <input> element, then e.target.value will give you
 // the value of that input element.
